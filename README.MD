@@ -1,6 +1,7 @@
 # IMC CALCULATOR
 
 This is a simple calculator made with the React Native, for start my studies with this technology. You can download the APK from the project <a href="https://exp-shell-app-assets.s3.us-west-1.amazonaws.com/android/%40gpessoni/teste-d81fb8e227ff4bc8b0e7fc3b052971bc-signed.apk">here</a>
+This project was based on a simple course, made by <a href="https://www.youtube.com/c/OneBitCode"> OneBitCode </a>
 
 ## Prerequisites
 
