@@ -6,9 +6,11 @@ import styles from "./formStyle";
 export default function Form(props) {
   const [height, setHeight] = React.useState(null);
   const [weight, setWeight] = React.useState(null);
-  const [messageImc, setMessageImc] = useState("Preencha o peso e altura");
   const [imc, setImc] = useState(null);
+  const [errorMessage, setErrorMessage] = useState(null)
+  const [messageImc, setMessageImc] = useState("Preencha o peso e altura");
   const [textButton, setTextButton] = useState("Calcular");
+  
 
   function imcCalculator() {
     return setImc((weight / (height * height)).toFixed(2));
